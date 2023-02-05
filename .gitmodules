@@ -1,0 +1,6 @@
+[submodule "www-data/wp-content/plugins/wp2static-addon-netlify"]
+	path = www-data/wp-content/plugins/wp2static-addon-netlify
+	url = https://github.com/WP2Static/wp2static-addon-netlify.git
+[submodule "www-data/wp-content/plugins/wp2static"]
+	path = www-data/wp-content/plugins/wp2static
+	url = https://github.com/WP2Static/wp2static.git
