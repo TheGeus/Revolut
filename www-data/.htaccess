@@ -9,3 +9,5 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 
 # END WordPress
+
+php_value max_execution_time 100000
