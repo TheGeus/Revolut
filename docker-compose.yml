@@ -14,6 +14,7 @@ services:
       WORDPRESS_DB_NAME: revolutdb
     volumes:
       - "./www-data:/var/www/html"
+      - ./php.ini-custom:/usr/local/etc/php/conf.d/php.ini
 
   db:
     image: mysql:5.7
